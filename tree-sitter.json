@@ -1,0 +1,28 @@
+{
+  "grammars": [
+    {
+      "name": "mtml",
+      "camelcase": "Mtml",
+      "scope": "source.mtml",
+      "path": ".",
+      "file-types": ["mtml"],
+      "injection-regex": "^mtml$"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "MTML (template language for MovableType) grammar for tree-sitter",
+    "links": {
+      "repository": "https://github.com/withmtml/tree-sitter-mtml"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true
+  }
+}
