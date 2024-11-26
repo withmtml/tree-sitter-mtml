@@ -1,0 +1,17 @@
+==================
+Basic tag
+==================
+
+<mt:TagName modifier="value">
+  Content
+</mt:TagName>
+
+---
+
+(source_file
+  (tag
+    name: (identifier)
+    (modifier
+      name: (identifier)
+      value: (string))
+    (text)))
