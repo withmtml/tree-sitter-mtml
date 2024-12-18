@@ -48,17 +48,7 @@
   {
     "type": "comment_tag",
     "named": true,
-    "fields": {},
-    "children": {
-      "multiple": false,
-      "required": false,
-      "types": [
-        {
-          "type": "text",
-          "named": true
-        }
-      ]
-    }
+    "fields": {}
   },
   {
     "type": "function_tag",
@@ -87,10 +77,6 @@
         "multiple": false,
         "required": true,
         "types": [
-          {
-            "type": "field",
-            "named": false
-          },
           {
             "type": "identifier",
             "named": true
@@ -208,6 +194,10 @@
     "named": false
   },
   {
+    "type": "\"/",
+    "named": false
+  },
+  {
     "type": "$>",
     "named": false
   },
@@ -216,11 +206,19 @@
     "named": false
   },
   {
+    "type": "'/",
+    "named": false
+  },
+  {
     "type": ",",
     "named": false
   },
   {
-    "type": "/",
+    "type": "/\"",
+    "named": false
+  },
+  {
+    "type": "/'",
     "named": false
   },
   {
@@ -246,10 +244,6 @@
   {
     "type": "escape_sequence",
     "named": true
-  },
-  {
-    "type": "field",
-    "named": false
   },
   {
     "type": "identifier",
